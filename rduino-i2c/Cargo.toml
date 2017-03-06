@@ -1,0 +1,6 @@
+[package]
+name = "rduino-i2c"
+version = "0.1.0"
+authors = ["Jascha Neutelings <neutelings.jascha@gmail.com>"]
+
+[dependencies]

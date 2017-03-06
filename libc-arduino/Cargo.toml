@@ -1,0 +1,8 @@
+[package]
+name = "libc-arduino"
+version = "0.1.0"
+authors = ["Jascha Neutelings <neutelings.jascha@gmail.com>"]
+build = "build.rs"
+
+[build-dependencies.carguino-build]
+git = "https://github.com/Jascha-N/carguino"

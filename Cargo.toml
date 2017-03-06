@@ -1,0 +1,2 @@
+[workspace]
+members = ["alloc-arduino", "libc-arduino", "rduino", "rduino-spi", "rduino-i2c"]

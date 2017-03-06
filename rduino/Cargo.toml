@@ -1,0 +1,21 @@
+[package]
+authors = ["Jascha Neutelings <neutelings.jascha@gmail.com>"]
+build = "build.rs"
+name = "rduino"
+version = "0.1.0"
+
+[build-dependencies.carguino-build]
+git = "https://github.com/Jascha-N/carguino"
+
+[dependencies.alloc-arduino]
+optional = true
+path = "../alloc-arduino"
+
+[dependencies.compiler_builtins]
+git = "https://github.com/rust-lang-nursery/compiler-builtins"
+
+[dependencies.libc-arduino]
+path = "../libc-arduino"
+
+[features]
+alloc = ["alloc-arduino"]

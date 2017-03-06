@@ -1,0 +1,7 @@
+[package]
+name = "alloc-arduino"
+version = "0.1.0"
+authors = ["Jascha Neutelings <neutelings.jascha@gmail.com>"]
+
+[dependencies.libc-arduino]
+path = "../libc-arduino"
